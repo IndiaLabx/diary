@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/web-BobZunS9.js","assets/index-DAFn4S01.js","assets/index-DYcvyMmO.css"])))=>i.map(i=>d[i]);
+import{r as i,_ as n,C as s}from"./index-DAFn4S01.js";const p=i("App",{web:()=>n(()=>import("./web-BobZunS9.js"),__vite__mapDeps([0,1,2])).then(e=>new e.AppWeb)}),l=async(e,r)=>{if(s.isNativePlatform())try{return await p.addListener("appStateChange",({isActive:a})=>{a?e():r()})}catch(t){return console.error("Failed to register app state listener",t),null}return null};export{l as registerAppStateChangeListener};
